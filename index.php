@@ -1,14 +1,12 @@
 <?php
-
+    include "assets/includes/doctype.php";
 ?>
-<!DOCTYPE html>
-<html>
-    <head>
-
-    </head>
+    <title>Página principal</title>
+    <link rel="stylesheet" href="assets/includes/style/style.css">
+</head>
 <body>
 <?php
-    include "./assets/includes/header.php";
+    include "assets/includes/header.php";
+    include "assets/includes/navigationMenu.php";
 ?>
 </body>
-</html>

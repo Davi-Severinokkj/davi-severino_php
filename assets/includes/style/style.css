@@ -1,0 +1,83 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(16, 107, 107);
+}
+
+.header_container {
+    height: 120px;
+    display: flex;
+    justify-content: space-between; /* separa logo e contatos */
+    align-items: center;
+    background-color: #1ed760;
+    padding: 0 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Logo */
+.header_logo img {
+    height: 60px; /* ajuste do tamanho */
+}
+
+/* Contato + ícones */
+.header_contatos {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 20px; /* espaço entre "Contato" e os ícones */
+}
+
+.header_contatos a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+/* Ícones */
+.icones {
+    display: flex;
+    gap: 5px;
+}
+
+.icones a {
+    color: black;
+    font-size: 22px;
+}
+.nav_container{
+    display: flex;
+    background-color: black;
+    padding: 10px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.col-50{
+    width: 50%;
+}
+.menu{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    border: 1px solid;
+    border-radius: 5px;
+}
+.pesquisa{
+        display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.nav_container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu h3 {
+    display: inline-block;
+    margin-right: 20px;
+}
+.pesquisa input {
+    padding: 5px 10px;
+    font-size: 16px;
+}
