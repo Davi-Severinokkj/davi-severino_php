@@ -10,7 +10,8 @@
 
 <?php
     include "../assets/includes/header.php";
-    include "../assets/includes/navigationMenu.php";
+    include '../assets/includes/navigationMenu.php';
+
 ?>
 
 <form class="row g-3">

@@ -6,7 +6,6 @@
         <meta name="keywords" content="PHP, professor, o cara é bão memo">
         <meta name="author" content="Davi Severino">
         <meta name="viewport" content="width=device-width, initial-scale=1.5">
-        <link rel="stylesheet" href="./assets/style/style.css">
 
                                     <!--Bootstrap-->
 

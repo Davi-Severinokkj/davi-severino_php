@@ -1,7 +1,6 @@
 <?php
     include "assets/includes/doctype.php";
 ?>
-<body>
 <header>
     <div class="header_container">
         <!-- Logo à esquerda -->
@@ -25,5 +24,4 @@
 
     </div>
 </header>
-</body>
-</html>
+
