@@ -8,6 +8,7 @@
 <?php
     include "assets/includes/header.php";
     include "assets/includes/navigationMenu.php";
+    include "forms/cadastro.php";
 ?>
 
 </body>

@@ -4,6 +4,8 @@
 
 <title>FORMULÁRIO DO JOEL, MEU MANOW!</title>
 
+<link rel="stylesheet" href="../assets/includes/style/style.css">
+
 </head>
 
 <body>
