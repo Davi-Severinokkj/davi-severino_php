@@ -22,6 +22,22 @@ function contarTempo(string $data):string
     $meses = round($diferenca / 2419200); // um mês tem 4 semanas
     $anos = round($diferenca / 29030400); // um ano tem 12 meses
 
+    if($segundos <= 60){
+        return 'Agora';
+    } else if ($minutos <= 60) {
+        return $minutos == 1 ? 'Há um minuto': 'Há ' . $minutos . ' minutos';
+    } else if ($horas <= 24) {
+        return $horas == 1 ? 'Há 1 hora': 'Há ' . $horas . ' horas';
+    } else if ($dias <= 7) {
+        return $dias == 1 ? 'Há um dia': 'Há ' . $dias . ' dias';
+    } else if ($semanas <= 4) {
+        return $semanas == 1 ? 'Há uma semana': 'Há ' . $semanas . ' semanas';
+    } else if ($meses <= 12) {
+        return $meses == 1 ? 'Há um mês': 'Há ' . $meses . ' meses';
+    } else if ($anos) {
+        return 'Há ' . $anos . ' anos.';
+    }
+
     return true;
 
 }
