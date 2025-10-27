@@ -40,4 +40,4 @@ function contarTempo(string $data):string
     }
 
 }
-echo "<hr>" . contarTempo(data: '2025-10-27 13:43:32');
+echo "<hr>" . contarTempo(data: '2025-10-27 00:00:00');
