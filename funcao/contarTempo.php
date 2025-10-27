@@ -40,5 +40,5 @@ function contarTempo(string $data):string
     }
 
 }
-
-contarTempo(data: contarTempo());
+echo "<hr>";
+echo contarTempo(data: '1234321321213-12-25 14:00:00');
