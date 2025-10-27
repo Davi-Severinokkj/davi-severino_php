@@ -20,7 +20,7 @@ function contarTempo(string $data):string
     $dias = round($diferenca / 86400); // um dia tem 24 horas.
     $semanas = round($diferenca / 604800); // uma semana tem 7 dias
     $meses = round($diferenca / 2419200); // um mês tem 4 semanas
-    $anos = round($diferenca / 29030400); // um ano tem 12 meses
+    $anos = round($diferenca / 31536000); // um ano tem 12 meses
 
     if($segundos <= 60){
         return 'Agora';
@@ -40,5 +40,4 @@ function contarTempo(string $data):string
     }
 
 }
-echo "<hr>";
-echo contarTempo(data: '1234321321213-12-25 14:00:00');
+echo "<hr>" . contarTempo(data: '2025-10-27 13:43:32');
