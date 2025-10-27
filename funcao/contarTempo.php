@@ -25,6 +25,7 @@ function contarTempo(string $data):string
     if($segundos <= 60){
         return 'Agora';
     } else if ($minutos <= 60) {
+        // Ternário -> Se minutos == 1, então 'Há um minuto', senão 'Há...'
         return $minutos == 1 ? 'Há um minuto': 'Há ' . $minutos . ' minutos';
     } else if ($horas <= 24) {
         return $horas == 1 ? 'Há 1 hora': 'Há ' . $horas . ' horas';
@@ -34,10 +35,10 @@ function contarTempo(string $data):string
         return $semanas == 1 ? 'Há uma semana': 'Há ' . $semanas . ' semanas';
     } else if ($meses <= 12) {
         return $meses == 1 ? 'Há um mês': 'Há ' . $meses . ' meses';
-    } else if ($anos) {
-        return 'Há ' . $anos . ' anos.';
+    } else{
+        return $anos == 1 ? 'Há um ano.' : 'Há ' . $anos . ' anos.';
     }
 
-    return true;
-
 }
+
+contarTempo(data: contarTempo());
