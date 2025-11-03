@@ -49,10 +49,15 @@ function dataAtual():string{
     $mes = date('m');
     $ano = date('Y');
 
+    // EM UM ARRAY A POSIÇÃO COMEÇA SEMPRE DE 0 ADIANTE
+
     $nomeDosMeses  = ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'];
     $nomeDiasDaSemana = ['Domingo', 'Segunda-feira', 'Terça-feira', 'Quarta-feira', 'Quinta-feira', 'Sexta-feira', 'Sábado'];
     $dataFormatada = $nomeDiasDaSemana[$diaSemana] . ', ' . $diaMes . ' de ' . $nomeDosMeses [$mes - 1] . ' de ' . $ano . '.';
 
+    echo 'Dia do mês: ' . $diaMes . '<br>' . 'Dia da semana: ' . $diaSemana . '<br>' . 'Mês: ' . $mes . '<br>' . 'Ano: ' . $ano . '<br>'; echo '<hr>';
+
     return $dataFormatada;
 }
+
 echo dataAtual();
